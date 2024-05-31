@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "607041122729",
+    "project_id": "pedrosound-3c50c",
+    "storage_bucket": "pedrosound-3c50c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607041122729:android:8c5691f86f7c5f5b3894b8",
+        "android_client_info": {
+          "package_name": "com.actividad.pedrosound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607041122729-9sc1rtgdd4apft9pi3vvurb113ob9fk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIQPf9y4WIDeywh8U4lYr1Fm8W3yyi__g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607041122729-9sc1rtgdd4apft9pi3vvurb113ob9fk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607041122729:android:f27e2ce7c15e8b733894b8",
+        "android_client_info": {
+          "package_name": "com.jzk.pedrosound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607041122729-9sc1rtgdd4apft9pi3vvurb113ob9fk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIQPf9y4WIDeywh8U4lYr1Fm8W3yyi__g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607041122729-9sc1rtgdd4apft9pi3vvurb113ob9fk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EasyShop</string>
+    <string name="txt_iniciar_sesion">Iniciar Sesión</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="txt_registrarse">Registrarse</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_verifica_la_contrasena">Verifica la contraseña</string>
+    <string name="txt_regresar">Regresar</string>
+    <string name="txt_cerrar_sesion">Cerrar sesión</string>
+    <string name="txt_ver_mas">Ver más</string>
+    <string name="txt_hacer_sugerencia">Hacer sugerencia</string>
+
+    <string name="txt_titulo1">¿Estás listo para transformar tu experiencia de compra y venta en línea?</string>
+    <string name="txt_contenido1">EasyShop está a punto de lanzarse y queremos que seas uno de los primeros en probar nuestra plataforma en su fase beta. Únete a nosotros y disfruta de una experiencia de comercio electrónico personalizada, segura y eficiente.</string>
+    <string name="txt_titulo2">Con EasyShop podrás:</string>
+    <string name="txt_contenido2">Explorar una amplia variedad de productos: Encuentra todo lo que necesitas en un solo lugar, desde moda y tecnología hasta artículos para el hogar.
+                                \n\nVender con facilidad: Publica tus productos en minutos y alcanza a una audiencia global.
+                                \n\nPagos seguros: Realiza transacciones sin preocupaciones con nuestros métodos de pago confiables y seguros.
+                                \n\nInteracción en tiempo real: Chatea directamente con compradores y vendedores para resolver tus dudas al instante.
+                                \n\nOfertas exclusivas: Aprovecha descuentos y promociones especiales solo disponibles para nuestros usuarios beta.
+                                \n\nNo te pierdas esta oportunidad única de ser parte del futuro del comercio electrónico. Inscríbete ahora y sé uno de los primeros en experimentar todo lo que EasyShop tiene para ofrecer. ¡Te esperamos!</string>
+
+
+</resources>
