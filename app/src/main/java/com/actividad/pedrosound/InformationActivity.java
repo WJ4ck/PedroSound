@@ -37,5 +37,14 @@ public class InformationActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        btn_sugerencia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InformationActivity.this, SugerenciaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

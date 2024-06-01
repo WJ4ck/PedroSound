@@ -73,6 +73,11 @@ public class RegisterActivity extends AppCompatActivity {
                 String pass = et_contrasena.getText().toString().trim();
                 String veripass = et_verificar_contrasena.getText().toString().trim();
 
+                if (!pass.equals(veripass)) {
+                    Toast.makeText(RegisterActivity.this, "¡Las contraseñas son diferentes!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
                 registerUser(nombre, apellido, edad, correo, pass);
             }
         });
