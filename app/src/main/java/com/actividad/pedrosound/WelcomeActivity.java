@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class WelcomeActivity extends AppCompatActivity {
 
-    Button btn_ver_mas, btn_cerrar_sesion;
+    Button btn_ver_mas, btn_cerrar_sesion, btn_crash;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         btn_cerrar_sesion  = findViewById(R.id.btn_cerrar_sesion);
         btn_ver_mas = findViewById(R.id.btn_ver_mas);
+        btn_crash = findViewById(R.id.btn_crash);
 
         btn_cerrar_sesion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +49,13 @@ public class WelcomeActivity extends AppCompatActivity {
                 Intent intent = new Intent(WelcomeActivity.this, InformationActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        btn_crash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                throw new RuntimeException("Test Crash");
             }
         });
     }
